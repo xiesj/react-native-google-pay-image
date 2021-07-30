@@ -12,6 +12,6 @@ class GooglePayImagePackage : ReactPackage {
     }
 
     override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
-        return listOf(BuyWithGooglePayImageViewManager(), PlainGooglePayImageViewManager())
+        return listOf(DonateWithGooglePayImageViewManager(), BuyWithGooglePayImageViewManager(), PlainGooglePayImageViewManager())
     }
 }
